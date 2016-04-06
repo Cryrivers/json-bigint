@@ -1,6 +1,6 @@
 {
   "name": "json-bigint-nosourcemap",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Browserified version of the json-bigint npm package. (No SourceMap version)",
   "main": "dist/json-bigint.js",
   "moduleType": [
