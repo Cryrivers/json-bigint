@@ -1,7 +1,7 @@
 {
-  "name": "json-bigint",
+  "name": "json-bigint-nosourcemap",
   "version": "0.0.0",
-  "description": "A Browserified version of the json-bigint npm package.",
+  "description": "A Browserified version of the json-bigint npm package. (No SourceMap version)",
   "main": "dist/json-bigint.js",
   "moduleType": [
     "es6",
@@ -13,7 +13,8 @@
     "bignumber"
   ],
   "authors": [
-    "Sam Nelson"
+    "Sam Nelson",
+    "Zhongliang Wang"
   ],
   "license": "MIT",
   "ignore": [

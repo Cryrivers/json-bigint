@@ -16,10 +16,7 @@ gulp.task('bundle', function() {
     return b.bundle()
         .pipe(source('json-bigint.js'))
         .pipe(buffer())
-        .pipe(sourcemaps.init({loadMaps: true}))
-        .pipe(uglify())
-            .on('error', gutil.log)
-        .pipe(sourcemaps.write())
+        .pipe(uglify()).on('error', gutil.log)
         .pipe(gulp.dest('./dist'));
 });
 
